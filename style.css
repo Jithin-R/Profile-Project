@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    line-height: 1.4em;
+    letter-spacing: .08em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+
+.cover {
+    background-color: #c0e3e7;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 3rem;
+    border-radius: 5px;
+    box-shadow: 10px 10px 6px -6px rgb(172, 172, 172);
+}
+
+.cover-img img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.cover h2 {
+    font-size: 2.7em;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #010101;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+}
+
+.cover p {
+    color: #757575;
+    margin-bottom: 2rem;
+}
+
+.cover-intro {
+    margin-left: 3rem;
+}
+
+.cover-intro a {
+    margin: 12px;
+    font-size: 1.5rem;
+    color: #010101;
+}
+
+#content {
+    display: block;
+    margin: 1%;
+    background-color: #F5EEDC;
+    border-left: 5px solid #22577E;
+    border-radius: 0 5px 5px 0;
+    padding-bottom: 3rem;
+}
+
+.about, .education, .experience, .skills, .project {
+    padding: 1rem 3rem 0 3rem;
+}
+
+.about h2, .education h2, .experience h2, .skills h2, .project h2 {
+    color: #22577E;
+    text-transform: uppercase;
+}
+
+.members td:first-child {
+    width: 10%;
+}
+
+.members td {
+    padding: 10px;
+}
+
+.members img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.project .desc {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.project img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#footer {
+    display: block;
+    background-color: #041C32;
+    color: #F5EEDC;
+    padding: 3rem;
+    text-align: center;
+    margin: 1%;
+}
